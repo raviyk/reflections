@@ -5,3 +5,6 @@ Git provides a initialized git repository and creates meta data in an invisible 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area allows user to select the file to be added to the commit. it helps in keeping the working directory logically different than the repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+Using git diff --staged will identify changes between staging area and commit
