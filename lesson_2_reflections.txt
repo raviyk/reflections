@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git provides a initialized git repository and creates meta data in an invisible folder. This contains information that will later track all changes in the repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area allows user to select the file to be added to the commit. it helps in keeping the working directory logically different than the repository
