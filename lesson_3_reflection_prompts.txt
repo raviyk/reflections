@@ -35,3 +35,7 @@ Why might you want to always pull changes manually rather than having Git automa
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	This will help in ensuring we have the most updated master. This will help in having all the changes that are production ready.
+	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When we want to ensure our changes are reviewed and testsed before making updates to production. Benefit of making changes this way is we have robust code that has been verified. On the other hand, benefit of having to update directly to the Master, will help in having all updates in one place.
